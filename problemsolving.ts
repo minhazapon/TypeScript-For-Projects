@@ -31,7 +31,33 @@
 
 /////////////////////////
 
+        const removeDuplicates = (numberZ: number[] ): number[] =>{
+             
+            let CmnNumber: number[] = [];
 
+            for( let n: number = 0; n < numberZ.length; n++ ){
+                
+               const elements: number = numberZ[n] 
+               const valueZ = elements 
+
+               if(!CmnNumber.includes(valueZ)){
+
+                   CmnNumber.push(valueZ);
+     
+               }
+            }
+            return CmnNumber;
+        }
+        const ArrayOfnumberZ: number[] = [1, 2, 2, 3, 4, 4, 5]
+        
+        const ArrayResult : number[] = removeDuplicates(ArrayOfnumberZ)
+
+        const SendResult = ArrayResult 
+
+        console.log(SendResult)
+     
+
+ 
 
 
 ////////////////////////////
@@ -106,6 +132,112 @@
     
 
 ////////////////////////////
+
+
+///-----------------------------
+
+
+  
+////problem --6
+
+/////////////////////////
+
+
+  interface Profile {
+
+      name: string,
+      age: number,
+      email: string
+
+  }
+
+  const updateProfile = (profle: Profile, UpDts: Partial<Profile> ): Profile =>{
+
+       const upPro = { ...profle, ...UpDts } 
+
+       const all = upPro 
+
+       return all
+ 
+  }
+
+  const manProfile: Profile = {
+      
+       name: "Alice",
+       age: 26,
+       email: "alice@example.com"
+
+  }
+
+  const Manresult = updateProfile(manProfile,  { age:26 } )
+
+  const finalResult = Manresult 
+
+  console.log(finalResult)
+
+
+
+////////////////////////////
+
+
+
+////problem --7
+
+/////////////////////////
+
+
+    class Car {
+
+         constructor(public make: string, public model: string, public year: number){
+         }
+        
+         getCarAge(): number {
+            
+            const CYear = new Date().getFullYear()
+            const fullYear = CYear 
+            return fullYear - this.year
+
+         }
+    }
+
+
+    const car = new Car("Honda", "Civic", 2018)
+
+    const carResult = car.getCarAge()
+    console.log(carResult)
+ 
+
+
+
+////////////////////////////
+
+
+
+////problem---8 
+
+
+///////
+
+     const validateKeys = <T extends object > (obj: T, keys: ( keyof T )[]): boolean =>{
+
+            
+            const value = keys 
+
+            const result = value 
+
+            return result.every(key => key in obj)
+
+     }
+
+     const person = { name: "Alice", age: 25, email: "alice@example.com" };
+
+     const keyValue = validateKeys(person, ["name", "age"])
+
+     console.log(keyValue)
+
+
+
+///////
 
 
 
