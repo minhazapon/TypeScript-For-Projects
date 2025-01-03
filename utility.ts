@@ -9,8 +9,17 @@
 
          }
 
+         type Utility2 = {
+
+            n1: string,
+            n2: number
+
+         }
+
 
          type allInfo = Pick < Utility, "capital" >
+
+         type uIn = Pick <Utility2, "n1" >
 
         
         /////omit types 

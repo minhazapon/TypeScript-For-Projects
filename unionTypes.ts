@@ -46,6 +46,30 @@
       console.log(stack.skill1, stack.skill2)
 
 
+      type Programming1 = {
+
+        skilZZZ1 : string
+
+      }
+      type Programming2 = {
+
+        skilZZZ2 : string
+
+      }
+
+
+      type allProgram = Programming1 & Programming2 
+
+      const prog: allProgram = {
+
+            skilZZZ1:"javaScript", skilZZZ2: 'next.js'
+  
+
+      }
+
+      console.log(prog.skilZZZ1, prog.skilZZZ2)
+
+
 
 
 }
