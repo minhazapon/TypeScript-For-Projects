@@ -55,6 +55,24 @@
 
 
 
+      type valueOf = number  
+
+
+      const think = (ns: valueOf, ns2: valueOf) =>{
+           
+
+          const allThinks = ns + ns2 
+
+          console.log(allThinks)
+
+
+      }
+
+      think( 1111, 21223)
+
+
+
+
 
 
 

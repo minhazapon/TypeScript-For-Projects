@@ -19,8 +19,25 @@
 
 
     console.log(name, number, name1, name2, name3, name4, isyes)
-    
 
+
+     
+    let nameZ = 'bangladesh';
+
+    let namZ2 = 'india';
+
+    let numberS = 12345678900009880865432; 
+
+
+    (nameZ as string);
+    (namZ2 as string);
+    (numberS as number);
+
+
+    console.log( nameZ, namZ2, numberS )
+
+    
+    
 
 
 
