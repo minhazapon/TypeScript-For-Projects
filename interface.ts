@@ -87,18 +87,22 @@
 
 
     interface ProductsArray {
-
       [ index: number ] : number
-
-
     }
 
     const PA: ProductsArray = [ 1223, 2344, 345, 3455, 23455, 23 ] 
-
-
     console.log(PA)
 
 
+
+    interface funZ {
+
+      ( numberZ1: number, numberZ2: number ) : number
+ 
+
+    }
+
+    
 
 
 
