@@ -52,6 +52,85 @@
 
 
 
+
+   /////////
+
+
+   const bangladesh: string = 'minhazul abedin apon'
+
+   console.log(bangladesh)
+
+
+
+   ////////basic typeScript 
+
+
+   ////string ts  
+
+
+   const name: string = 'minhazul abedin apon';
+
+   const name1: string = 'javaScript';
+
+   const name3: string = 'react.js';
+
+   const name4: string = 'next.js';
+
+   const name5: string = 'redux';
+   console.log(name, name1, name3, name4, name5)
+
+
+   ///number ts  
+
+
+   const AponNid: number = 152369786555 ;
+
+   const aponNumber: number = 19503744096 ;
+
+   const aponMom: number = 1947527866 ; 
+   console.log(AponNid, aponMom, aponNumber)
+
+
+   /////boolean ts 
+
+
+   const isAponPythonDeveloper: boolean = false 
+   
+   const isAponJavaScriptDeveloper: boolean = true 
+
+   console.log(isAponJavaScriptDeveloper, isAponPythonDeveloper)
+
+
+   ////array ts
+
+
+   const fishName: string[] = [ 'hilisha', 'ruiKatlaa', 'pangash', 'chingri', 'bowalFish' ] 
+
+   console.log(fishName)
+
+   const PageNumber: number[] = [ 1646, 23, 46655, 3556, 3656, 32567, 23546 ] 
+
+   console.log(PageNumber)
+
+   const allIsOkay: boolean[] = [ true,  false, true, false, true ]
+   
+   console.log(allIsOkay)
+
+
+   ////tuple ts  
+
+
+   const pakhi: [ string, number ] = [ 'Tia Pakhi Price is >>>>>', 2000 ] 
+
+   console.log(pakhi)
+
+   const sports: ( string | number )[] = [ 'football', 1990 ] 
+
+   console.log(sports) 
+
+
+
+
     
 
 
