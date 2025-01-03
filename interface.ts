@@ -94,14 +94,6 @@
     console.log(PA)
 
 
-
-    interface funZ {
-
-      ( numberZ1: number, numberZ2: number ) : number
- 
-
-    }
-
     
 
 

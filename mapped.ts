@@ -41,6 +41,37 @@
      console.log(all.address, all.location, all.name, all.number, all.profession, all.skilss)
 
 
+     type allMp =  {
+
+       country: string,
+       country1: string,
+       countryAge: number
+
+     }
+
+
+     type mapZ = {
+
+       [ key in keyof allMp ] : string | number
+
+     }
+
+
+     const info: mapZ = {
+         
+       country: 'bangladesh',
+       country1: 'america',
+       countryAge: 20000000
+ 
+     } 
+
+
+     console.log(info.country, info.country1, info.countryAge)
+
+
+
+
+
 
 
 
