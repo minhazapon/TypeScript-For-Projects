@@ -23,6 +23,32 @@
      pro1.products();
 
 
+     
+     class allSkills {
+
+
+       constructor( public s1: string , public s2: string  , public s3: string  , public s4: string   ){
+
+       }
+
+
+       skillZ(){
+
+         console.log(` minhazul abedin apon skills is >>> ${this.s1}, ${this.s2}, ${this.s3}, ${this.s4} `)
+
+       }
+           
+        
+     }
+
+     const allOfSkillAre = new allSkills( 'javaScript', 'next.js', 'react.js', 'redux'  ) 
+
+     console.log(allOfSkillAre.s1, allOfSkillAre.s2, allOfSkillAre.s3, allOfSkillAre.s4)
+
+
+
+
+
 
 
 
